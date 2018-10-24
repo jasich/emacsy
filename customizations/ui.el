@@ -1,6 +1,3 @@
-;; Bigger window size
-
-
 ;; Set font to Menlo 20pt
 (set-frame-font "Menlo 20")
 
@@ -27,7 +24,7 @@
 
     ;; Hide toolbar
     (tool-bar-mode -1)
-    
+
     ;; initial window size
     (when window-system (set-frame-size (selected-frame) 120 80))))
 

@@ -1,7 +1,7 @@
 ;; Load required packages
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+	     '("melpa" . "https://melpa.org/packages/") t)
 
 (package-initialize)
 
@@ -12,16 +12,21 @@
 
 ;; Define list of packages that we'd like to have installed
 (defvar my-packages
-  '(projectile    
+  '(projectile
+    projectile-rails
     helm
     helm-projectile
     helm-ag
     company
-    editorconfig))
+    editorconfig
+    markdown-mode
+    web-mode
+    haml-mode
+    yaml-mode
+    coffee-mode
+    rspec-mode))
 
 ;; Get the packages
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
-
-

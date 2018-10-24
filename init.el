@@ -13,6 +13,8 @@
 ;; Loading editing stuff
 (load "editing.el")
 
+;; Org mode
+(load "org-mode.el")
 
 ;; Set where custom variables go
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
