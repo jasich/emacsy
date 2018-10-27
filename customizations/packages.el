@@ -18,13 +18,21 @@
     helm-projectile
     helm-ag
     company
+    magit
+    diminish
+    clojure-mode
+    cider
+    elixir-mode
+    alchemist
     editorconfig
+    smartparens
     markdown-mode
     web-mode
     haml-mode
     yaml-mode
     coffee-mode
-    rspec-mode))
+    rspec-mode
+    ruby-end))
 
 ;; Get the packages
 (dolist (p my-packages)
