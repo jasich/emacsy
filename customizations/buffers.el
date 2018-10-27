@@ -6,3 +6,5 @@
 (diminish 'flycheck-mode)
 (diminish 'eldoc-mode)
 (diminish 'helm-mode)
+(diminish 'smartparens-mode)
+(diminish 'ruby-end-mode)
