@@ -43,3 +43,7 @@ line."
 
 (require 'editorconfig)
 (editorconfig-mode 1)
+
+
+(require 'smartparens-config)
+(smartparens-global-mode)
