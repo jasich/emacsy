@@ -1,6 +1,3 @@
-;; Set font to Menlo 20pt
-(set-frame-font "Menlo 20")
-
 ;; Don't ever ring the "bell" when I'm working
 (setq ring-bell-function 'ignore)
 
@@ -30,3 +27,12 @@
 
 ;; Show line numbers
 (global-display-line-numbers-mode)
+
+
+(package-initialize)
+(require 'color-theme-sanityinc-tomorrow)
+(load-theme 'sanityinc-tomorrow-night t)
+
+
+;; Set font to Menlo 20pt
+(set-frame-font "Menlo 20")

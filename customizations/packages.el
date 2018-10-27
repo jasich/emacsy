@@ -20,6 +20,7 @@
     company
     magit
     diminish
+    color-theme-sanityinc-tomorrow
     clojure-mode
     cider
     elixir-mode
