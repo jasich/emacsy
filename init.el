@@ -21,11 +21,8 @@
 (load "buffers.el")
 
 
-;;
-;; Languages
-;;
-;; Clojure
-(load "clojure.el")
+;; Customizations based on programming language
+(load "prog-languages.el")
 
 ;; Set where custom variables go
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
