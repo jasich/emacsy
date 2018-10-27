@@ -24,6 +24,10 @@
 ;; Customizations based on programming language
 (load "prog-languages.el")
 
+;; Load current environment from shell
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
 ;; Set where custom variables go
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (when (file-exists-p custom-file)

@@ -21,6 +21,7 @@
     magit
     diminish
     color-theme-sanityinc-tomorrow
+    exec-path-from-shell
     clojure-mode
     cider
     elixir-mode
